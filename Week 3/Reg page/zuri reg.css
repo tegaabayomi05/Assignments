@@ -1,0 +1,88 @@
+body{
+    background-color: #e8f3f8;
+ }
+
+ h1{text-align: center;
+    font-size: 50px;
+    color: steelblue;
+
+ }
+ form{
+    margin: 20px auto;
+    width: 320px;
+    color: steelblue;
+ }
+ 
+
+
+ 
+ input{
+    padding: 10px;
+    font-size: inherit;
+ }
+ input[type="text"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue
+
+ }
+ input[type="Phone number"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+ }
+ input[type="Email"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+ }
+ input[type="date"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+ }
+ input[type="radio"]{
+    margin: 0 5px 25px 0px;
+ }
+ input[type="color"]{
+    margin: 0 5px 25px 0px; 
+}
+ 
+    input[type="Submit"]{
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+ }
+  .button{
+   width: 344px;
+   height: 45px;
+   border: none;
+   background: steelblue;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 18px;
+   
+   
+  }
+  .para-2{
+   text-align: center;
+   font-size: 15px;
+   color: steelblue;
+   margin-top: -10px;
+   border-radius: ;
+
+
+  }
+  
+ 
+ 
+ 
+
+
+ 

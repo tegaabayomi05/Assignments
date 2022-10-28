@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'c e'
+    ;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+    
+}
+main div{
+    padding: 2em;
+    content-visibility: hidden;
+}
+.item-a{
+    background-color: red;
+    grid-area:a;
+    width: 122%;
+    padding-top: 30%;
+}
+.item-b{
+    background-color: rgb(252, 168, 14);
+     grid-area: b;
+     width: 50%;
+     margin-left: 37%;
+    
+    }
+     
+.item-c{
+    background-color: green;
+    grid-area: c;
+    
+}
+.item-d{
+    background-color: steelblue;
+    grid-area: d;
+}
+.item-e{
+    background-color: steelblue;
+    grid-area: e;
+    padding-top: 27%;
+}
